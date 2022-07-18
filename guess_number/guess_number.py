@@ -21,7 +21,6 @@ def guess_the_number():
       if user_guess == computer_number:
         print(f"You got it! The answer was {computer_number}")
         game_over = True
-        print(game_over)
       elif user_guess < computer_number:
         print("Too low.")
         guesses -= 1
